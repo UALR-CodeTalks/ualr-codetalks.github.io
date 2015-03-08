@@ -6,19 +6,24 @@
     </head>
 
     <body>
-        <div id="list-container">
-            <ul id="topic-list">
-                <li>
-                    <div id="topic">
-                        <a class="title" href="#">Hello World!</a>
-                    </div>
-                </li>
+        <div id="table-container">
+            <table id="topic-table">
+                <tr id="table-header">
+                    <th>Topic</th>
+                    <th>Category</th>
+                    <th>User</th>
+                    <th>Replies</th>
+                    <th>Views</th>
+                </tr>
 
-                <li>
-                    <div class="topic">
-                        <a href="#">Hello World!</a>
-                    </div>
-                </li>
+                <tr class="topic">
+                    <td><a class="title" href="#">Hello World!</a></td>
+                    <td><a class="category" href="#">Game</a></td>
+                    <td><a class="user" href="#">Alex</a></td>
+
+                    <td><p class="reply-count">10</p></td>
+                    <td><p class="view-count">415</p></td>
+                </tr>
             </ul>
         </div>
     </body>
