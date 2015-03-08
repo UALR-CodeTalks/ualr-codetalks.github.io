@@ -1,0 +1,9 @@
+.up-vote i:visited {
+  color: green; }
+.up-vote i:hover {
+  color: green; }
+
+.down-vote i:visited {
+  color: red; }
+.down-vote i:hover {
+  color: red; }

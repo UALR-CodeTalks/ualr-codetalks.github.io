@@ -1,0 +1,23 @@
+
+$upVoteColor: green;
+$downVoteColor: red;
+
+.up-vote {
+    i:visited {
+        color: $upVoteColor;
+    }
+
+    i:hover {
+        color: $upVoteColor;
+    }
+}
+
+.down-vote {
+    i:visited {
+        color: $downVoteColor;
+    }
+
+    i:hover {
+        color: $downVoteColor;
+    }
+}
