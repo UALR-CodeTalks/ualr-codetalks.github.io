@@ -44,19 +44,28 @@ a {
       #content #pres-info #pres-data .below-line {
         height: 60px; }
         #content #pres-info #pres-data .below-line .p-voting {
-          width: 5%; }
-        #content #pres-info #pres-data .below-line .favorite {
-          vertical-align: top;
-          width: 5%; }
-          #content #pres-info #pres-data .below-line .favorite:hover {
-            color: #1352A2; }
-        #content #pres-info #pres-data .below-line .info {
-          display: inline;
-          vertical-align: middle;
-          margin-left: auto; }
-          #content #pres-info #pres-data .below-line .info h4 {
-            display: inline-block;
-            margin: 0; }
+          width: 5%;
+          height: 100%;
+          vertical-align: middle; }
+        #content #pres-info #pres-data .below-line .non-voting {
+          width: 90%;
+          height: 100%;
+          display: inline; }
+          #content #pres-info #pres-data .below-line .non-voting .favorite {
+            vertical-align: middle;
+            width: 5%; }
+            #content #pres-info #pres-data .below-line .non-voting .favorite:hover {
+              color: #1352A2; }
+          #content #pres-info #pres-data .below-line .non-voting .info {
+            display: inline;
+            vertical-align: top;
+            float: right; }
+            #content #pres-info #pres-data .below-line .non-voting .info h4 {
+              display: inline-block;
+              margin: 0; }
+    #content #pres-info #pres-files #files-header {
+      margin-top: 16px;
+      margin-bottom: 16px; }
     #content #pres-info #pres-files table {
       width: 100%; }
       #content #pres-info #pres-files table .file td {

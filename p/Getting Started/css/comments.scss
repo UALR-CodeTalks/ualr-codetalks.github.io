@@ -1,19 +1,21 @@
 
 #comments-container {
-    max-width: 750px;
+    height: 750px;
+
+    width: 58%;
 
     margin-left: auto;
     margin-right: auto;
 
-    .above-line {
-        #c-header {
-            display: inline-block;
-        }
-
-        #c-submission {
-            display: inline-block;
-        }
+    #c-header {
+        margin-top: 16px;
+        margin-bottom: 16px;
     }
+
+    #c-submission {
+        //    display: inline-block;
+    }
+
 
     .comment {
         float: right;

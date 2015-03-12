@@ -2,14 +2,17 @@
 
 <html>
     <head>
+        <script src="../../libs/EpicEditor-v0.2.2/js/epiceditor.min.js"></script>
+
         <link rel="stylesheet" type="text/css" href="../../libs/font-awesome-4.3.0/css/font-awesome.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/comments.css">
+        <link rel="stylesheet" href="css/editor.css">
     </head>
 
     <body>
         <div id="content">
-            
+
             <iframe id="pres" src="./p/index.html">
                 Fallback text here for shitty unsupporting browsers.
             </iframe>
@@ -27,11 +30,13 @@
                             <i class="fa fa-chevron-down downvote"></i>
                         </div>
 
-                        <i class="fa fa-lg fa-heart favorite"></i>
+                        <div class="non-voting">
+                            <i class="fa fa-lg fa-heart favorite"></i>
 
-                        <div class="info">
-                            <h4 id="author">Created by Alex Jaeger</h4>
-                            <h4 id="date">On March 15, 2015</h4>
+                            <div class="info">
+                                <h4>By <a id="author">Alex Jaeger</a></h4>
+                                <h4 id="date">On March 15, 2015</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -121,21 +126,16 @@
             </div>
 
             <div id="comments-container">
-                <div class="above-line">
-                    <h3 id="c-header">Comments</h3>
-
-                    <div id="c-submission">
-
-                    <!--
-                        <form>
-                            <input id="comment-entry" type="text" name="comment-entry">
-                            <button id="submit-comment" type="text">Send</button>
-                        </form>
-                    -->
-                    </div>
-                </div>
+                <h3 id="c-header">Comments</h3>
 
                 <hr/>
+
+                <div class="editor">
+                    <a>Send Comment</a>
+                    <a class="editor-a" href="http://www.google.com">Formatting Help</a>
+
+                    <div class="epiceditor" id="epiceditor"></div>
+                </div>
 
                 <div class="comment">
                     <div class="voting c-voting">
@@ -198,5 +198,55 @@
                 </div>
             </div>
         </div>
+
+
+        <script>
+            var opts = {
+                container: 'epiceditor',
+                textarea: '',
+                basePath: '../../libs/EpicEditor-v0.2.2/',
+                clientSideStorage: true,
+                localStorageName: 'epiceditor',
+                useNativeFullscreen: true,
+                parser: marked,
+
+                file: {
+                    name: 'epiceditor',
+                    defaultContent: '',
+                    autoSave: 100
+                },
+
+                theme: {
+                    base: 'themes/base/epiceditor.css',
+                    preview: 'themes/preview/preview-light.css',
+                    editor: 'themes/editor/epic-light.css'
+                },
+
+                button: {
+                    preview: true,
+                    fullscreen: true,
+                    bar: "auto"
+                },
+
+                focusOnLoad: false,
+
+                shortcut: {
+                    modifier: 18,
+                    fullscreen: 70,
+                    preview: 80
+                },
+
+                string: {
+                    togglePreview: 'Toggle Preview Mode',
+                    toggleEdit: 'Toggle Edit Mode',
+                    toggleFullscreen: 'Enter Fullscreen'
+                },
+
+                autogrow: false
+            }
+
+            var editor = new EpicEditor(opts).load();
+
+        </script>
     </body>
 </html>

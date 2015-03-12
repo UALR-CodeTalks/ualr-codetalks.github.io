@@ -1,11 +1,11 @@
 #comments-container {
-  max-width: 750px;
+  height: 750px;
+  width: 58%;
   margin-left: auto;
   margin-right: auto; }
-  #comments-container .above-line #c-header {
-    display: inline-block; }
-  #comments-container .above-line #c-submission {
-    display: inline-block; }
+  #comments-container #c-header {
+    margin-top: 16px;
+    margin-bottom: 16px; }
   #comments-container .comment {
     float: right; }
     #comments-container .comment .c-voting {

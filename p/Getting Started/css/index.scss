@@ -46,7 +46,6 @@ a {
     }
 }
 
-
 #content {
     min-width: 400px;
 
@@ -78,32 +77,46 @@ a {
 
                 .p-voting {
                     width: 5%;
-                }
+                    height: 100%;
 
-                .favorite {
-                    vertical-align: top;
-                    width: 5%;
-
-                    &:hover {
-                        color: $blue-color;
-                    }
-                }
-
-                .info {
-                    display: inline;
                     vertical-align: middle;
+                }
 
-                    margin-left: auto;
+                .non-voting {
+                    width: 90%;
+                    height: 100%;
 
-                    h4 {
-                        display: inline-block;
-                        margin: 0;
+                    display: inline;
+
+                    .favorite {
+                        vertical-align: middle;
+                        width: 5%;
+
+                        &:hover {
+                            color: $blue-color;
+                        }
+                    }
+
+                    .info {
+                        display: inline;
+                        vertical-align: top;
+                        float: right;
+
+                        h4 {
+                            display: inline-block;
+                            margin: 0;
+                        }
                     }
                 }
             }
         }
 
         #pres-files {
+            #files-header {
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+
             table {
                 width: 100%;
 
