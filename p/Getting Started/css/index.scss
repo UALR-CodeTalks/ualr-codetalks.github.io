@@ -8,7 +8,7 @@ $red-color: #C91B26;
     src: url(../../../res/fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
 
-.fa{
+.fa {
     cursor: pointer;
 }
 
@@ -21,6 +21,7 @@ body {
 a {
     text-decoration: none;
     color: $blue-color;
+    cursor: pointer;
 }
 
 .voting {

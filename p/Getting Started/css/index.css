@@ -10,7 +10,8 @@ body {
 
 a {
   text-decoration: none;
-  color: #1352A2; }
+  color: #1352A2;
+  cursor: pointer; }
 
 .voting {
   display: inline-block; }
