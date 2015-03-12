@@ -1,6 +1,9 @@
 @font-face {
   font-family: Ubuntu;
   src: url(../../../res/fonts/Ubuntu/Ubuntu-Regular.ttf); }
+.fa {
+  cursor: pointer; }
+
 body {
   background-color: #FDFDF0;
   font-family: Ubuntu; }

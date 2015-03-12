@@ -8,6 +8,10 @@ $red-color: #C91B26;
     src: url(../../../res/fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
 
+.fa{
+    cursor: pointer;
+}
+
 body {
     background-color: $offwhite-color;
 
