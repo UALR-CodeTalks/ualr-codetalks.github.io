@@ -1,0 +1,46 @@
+
+#comments-container {
+    max-width: 750px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    .above-line {
+        #c-header {
+            display: inline-block;
+        }
+
+        #c-submission {
+            display: inline-block;
+        }
+    }
+
+    .comment {
+        float: right;
+
+        .c-voting {
+            width: 9%;
+            vertical-align: top;
+        }
+
+        .comment-data {
+            width: 90%;
+            display: inline-block;
+
+            .c-info {
+                * {
+                    margin: 0;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    .reply {
+        width: 95%;
+    }
+
+    .rreply {
+        width: 90%;
+    }
+}

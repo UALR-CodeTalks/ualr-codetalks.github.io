@@ -1,0 +1,119 @@
+
+$offwhite-color: #FDFDF0;
+$blue-color: #1352A2;
+$red-color: #C91B26;
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../../../res/fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+body {
+    background-color: $offwhite-color;
+
+    font-family: Ubuntu;
+}
+
+a {
+    text-decoration: none;
+    color: $blue-color;
+}
+
+.voting {
+    display: inline-block;
+
+    .upvote {
+        width: 100%;
+        text-align: center;
+
+        &:hover {
+            color:$blue-color;
+        }
+    }
+
+    .vote-count {
+        margin: 0;
+        text-align: center;
+    }
+
+    .downvote {
+        width: 100%;
+        text-align: center;
+
+        &:hover {
+            color:$blue-color;
+        }
+    }
+}
+
+
+#content {
+    min-width: 400px;
+
+    #pres {
+        display: block;
+
+        width: 640px;
+        height: 480px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #pres-info {
+        max-width: 750px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        #pres-data {
+            margin-top: 15px;
+
+            #title {
+                font-size: 2.5em;
+            }
+
+            .below-line {
+                height: 60px;
+
+                .p-voting {
+                    width: 5%;
+                }
+
+                .favorite {
+                    vertical-align: top;
+                    width: 5%;
+
+                    &:hover {
+                        color: $blue-color;
+                    }
+                }
+
+                .info {
+                    display: inline;
+                    vertical-align: middle;
+
+                    margin-left: auto;
+
+                    h4 {
+                        display: inline-block;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        #pres-files {
+            table {
+                width: 100%;
+
+                .file {
+                    td {
+                        text-align: left;
+                    }
+                }
+            }
+
+        }
+    }
+}
