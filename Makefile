@@ -1,5 +1,5 @@
 
-all: m res c-e p-dir p-gs p-wct
+all: m res u c-e p-dir p-gs p-wct
 
 m: ./css/index.scss
 	sass ./css/index.scss > ./css/index.css
@@ -21,8 +21,11 @@ p-wct: ./p/Why\ CodeTalks/css/index.scss ./p/Why\ CodeTalks/css/editor.scss ./p/
 	sass ./p/Why\ CodeTalks/css/editor.scss > ./p/Why\ CodeTalks/css/editor.css
 	sass ./p/Why\ CodeTalks/css/comments.scss > ./p/Why\ CodeTalks/css/comments.css
 
-c-e:
+c-e: ./c/example/css/editor.scss
 	sass ./c/example/css/editor.scss > ./c/example/css/editor.css
+
+u: ./u/css/index.scss
+	sass ./u/css/index.scss > ./u/css/index.css
 
 commit: *
 	git add -u *

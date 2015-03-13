@@ -1,39 +1,9 @@
-
-$offwhite-color: #FDFDF0;
-$blue-color: #1352A2;
-$red-color: #C91B26;
-
-@font-face {
-    font-family: Ubuntu;
-    src: url(../../../res/fonts/Ubuntu/Ubuntu-Regular.ttf);
-}
-
-.fa {
-    cursor: pointer;
-}
-
-body {
-    background-color: $offwhite-color;
-
-    font-family: Ubuntu;
-}
-
-a {
-    text-decoration: none;
-    color: $blue-color;
-    cursor: pointer;
-}
-
 .voting {
     display: inline-block;
 
     .upvote {
         width: 100%;
         text-align: center;
-
-        &:hover {
-            color:$blue-color;
-        }
     }
 
     .vote-count {
@@ -44,10 +14,6 @@ a {
     .downvote {
         width: 100%;
         text-align: center;
-
-        &:hover {
-            color:$blue-color;
-        }
     }
 }
 
@@ -99,10 +65,6 @@ a {
                     .favorite {
                         vertical-align: middle;
                         width: 5%;
-
-                        &:hover {
-                            color: $blue-color;
-                        }
                     }
 
                     .info {

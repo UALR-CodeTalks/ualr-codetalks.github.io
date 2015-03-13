@@ -7,7 +7,7 @@ a {
   cursor: pointer; }
 
 body {
-  background-color: #FDFDF0;
+  background-color: #FDFDFD;
   font-family: Ubuntu; }
 
 .header .logo {
@@ -18,3 +18,5 @@ body {
 
 .fa {
   cursor: pointer; }
+  .fa:hover {
+    color: #1352A2; }

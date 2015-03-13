@@ -36,7 +36,3 @@
           #topic-grid #topic-square-container .topic-square .topic-description div .topic-desc {
             overflow-x: hidden;
             color: #FFFFFF; }
-            #topic-grid #topic-square-container .topic-square .topic-description div .topic-desc .to-favorite:hover {
-              color: #E44; }
-            #topic-grid #topic-square-container .topic-square .topic-description div .topic-desc .to-share:hover {
-              color: #E44; }

@@ -1,5 +1,5 @@
 
-$offwhite-color: #FDFDF0;
+$offwhite-color: #FDFDFD;
 $blue-color: #1352A2;
 
 @font-face {
@@ -33,4 +33,8 @@ body {
 
 .fa {
     cursor: pointer;
+
+    &:hover {
+        color: $blue-color;
+    }
 }
