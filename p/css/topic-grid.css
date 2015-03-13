@@ -3,7 +3,7 @@
   margin-left: auto;
   margin-right: auto; }
   #topic-grid #topic-square-container {
-    display: block; }
+    display: table; }
     #topic-grid #topic-square-container .topic-square {
       display: inline-block;
       width: 100px;
