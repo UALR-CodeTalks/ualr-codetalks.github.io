@@ -28,6 +28,8 @@ u: ./u/css/index.scss
 	sass ./u/css/index.scss > ./u/css/index.css
 
 commit: *
+	git add *
+	git add -u
 	git add -u *
 	git commit -m "update"
 	git push origin master

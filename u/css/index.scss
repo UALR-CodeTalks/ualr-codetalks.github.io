@@ -1,0 +1,28 @@
+
+
+.user-info {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .profile-pic {
+        position:absolute;
+
+        clip: rect(0px, 60px, 250px, 250px)
+    }
+
+    .rightofimage {
+
+    }
+}
+
+
+.content {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .user-description {
+
+    }
+}
