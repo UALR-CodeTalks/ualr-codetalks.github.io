@@ -1,40 +1,42 @@
 #topic-grid {
-  min-width: 120px;
+  max-width: 750px;
   margin-left: auto;
   margin-right: auto; }
-  #topic-grid .topic-square {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-    overflow: hidden; }
-    #topic-grid .topic-square .topic-img {
-      width: 100%;
-      height: 100%; }
-    #topic-grid .topic-square .topic-description {
-      position: relative;
-      top: 0px;
-      right: 0;
-      -webkit-transition: all 1s;
-      -moz-transition: all 1s;
-      transition: all 1s; }
-      #topic-grid .topic-square .topic-description a {
-        text-decoration: none; }
-      #topic-grid .topic-square .topic-description div {
+  #topic-grid #topic-square-container {
+    display: block; }
+    #topic-grid #topic-square-container .topic-square {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      margin: 5px;
+      overflow: hidden; }
+      #topic-grid #topic-square-container .topic-square:hover .topic-description {
+        position: relative;
+        top: -116px;
+        right: 0; }
+      #topic-grid #topic-square-container .topic-square .topic-img #pres {
         width: 100px;
         height: 100px; }
-        #topic-grid .topic-square .topic-description div .topic-title {
-          color: #FFFFFF;
-          position: relative;
-          top: 10px; }
-        #topic-grid .topic-square .topic-description div .topic-desc {
-          overflow-x: hidden;
-          color: #FFFFFF; }
-          #topic-grid .topic-square .topic-description div .topic-desc .to-favorite:hover {
-            color: #E44; }
-          #topic-grid .topic-square .topic-description div .topic-desc .to-share:hover {
-            color: #E44; }
-  #topic-grid .topic-square:hover .topic-description {
-    position: relative;
-    top: -116px;
-    right: 0; }
+      #topic-grid #topic-square-container .topic-square .topic-description {
+        position: relative;
+        top: 0px;
+        right: 0;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        transition: all 1s; }
+        #topic-grid #topic-square-container .topic-square .topic-description a {
+          text-decoration: none; }
+        #topic-grid #topic-square-container .topic-square .topic-description div {
+          width: 100px;
+          height: 100px; }
+          #topic-grid #topic-square-container .topic-square .topic-description div .topic-title {
+            color: #FFFFFF;
+            position: relative;
+            top: 10px; }
+          #topic-grid #topic-square-container .topic-square .topic-description div .topic-desc {
+            overflow-x: hidden;
+            color: #FFFFFF; }
+            #topic-grid #topic-square-container .topic-square .topic-description div .topic-desc .to-favorite:hover {
+              color: #E44; }
+            #topic-grid #topic-square-container .topic-square .topic-description div .topic-desc .to-share:hover {
+              color: #E44; }

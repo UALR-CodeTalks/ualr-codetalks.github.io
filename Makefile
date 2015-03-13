@@ -9,7 +9,7 @@ res: ./resources/css/global.scss
 
 p-dir: ./p/css/index.scss ./p/css/topic-grid.scss
 	sass ./p/css/index.scss > ./p/css/index.css
-	sass ./p/css/topic-grid.scss > ./p/css/index.css
+	sass ./p/css/topic-grid.scss > ./p/css/topic-grid.css
 
 p-gs: ./p/Getting\ Started/css/index.scss ./p/Getting\ Started/css/editor.scss ./p/Getting\ Started/css/comments.scss
 	sass ./p/Getting\ Started/css/index.scss > ./p/Getting\ Started/css/index.css
@@ -20,7 +20,6 @@ p-wct: ./p/Why\ CodeTalks/css/index.scss ./p/Why\ CodeTalks/css/editor.scss ./p/
 	sass ./p/Why\ CodeTalks/css/index.scss > ./p/Why\ CodeTalks/css/index.css
 	sass ./p/Why\ CodeTalks/css/editor.scss > ./p/Why\ CodeTalks/css/editor.css
 	sass ./p/Why\ CodeTalks/css/comments.scss > ./p/Why\ CodeTalks/css/comments.css
-
 
 clean: *
 	git add -u *
