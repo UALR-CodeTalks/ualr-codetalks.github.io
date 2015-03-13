@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf); }
+a {
+  text-decoration: none;
+  color: #1352A2;
+  cursor: pointer; }
+
+body {
+  background-color: #FDFDF0;
+  font-family: Ubuntu; }
+
+.header .logo {
+  height: 35px;
+  width: 200px; }
+.header .settings {
+  float: right; }
+
+.fa {
+  cursor: pointer; }

@@ -1,0 +1,119 @@
+
+
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="dep/css/reveal.css">
+		<link rel="stylesheet" href="dep/css/theme/white.css" id="theme">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'dep/css/print/pdf.css' : 'dep/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<!-- Ace Editor Settings -->
+		<style type="text/css" media="screen">
+			#editor {
+				height:500px;
+				position: relative;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+			}
+		</style>
+
+		<!--
+			Set your Title, Name, and Description Here
+		-->
+
+		<title>Template Presentation</title>
+
+		<meta name="description" content="A template presentation to easily create CodeTalks">
+		<meta name="author" content="Alex Jaeger, Casey Megginson, Connor Taffe">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-markdown>
+					# < CodeTalks >
+
+					Why Even Bother?
+				</section>
+
+				<section data-markdown>
+					## A Place Where Dreams Come True
+
+					What if by utilizing group intelligence we could help everyone
+					learn more about Computer Science?
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## Knowledge Is A Graph
+					</script>
+				</section>
+
+				<section data-markdown>
+					# < /CodeTalks >
+				</section>
+			</div>
+		</div>
+
+		<script src="dep/lib/js/head.min.js"></script>
+		<script src="dep/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'dep/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'dep/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'dep/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'dep/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'dep/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'dep/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+
+		<script src="dep/plugin/ace-editor/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var editor = ace.edit("editor");
+			editor.setTheme("ace/theme/twilight");
+			editor.getSession().setMode("ace/mode/javascript");
+		</script>
+	</body>
+</html>

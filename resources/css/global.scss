@@ -1,0 +1,36 @@
+
+$offwhite-color: #FDFDF0;
+$blue-color: #1352A2;
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+a {
+    text-decoration: none;
+    color: $blue-color;
+    cursor: pointer;
+}
+
+
+body {
+    background-color: $offwhite-color;
+
+    font-family: Ubuntu;
+}
+
+.header {
+    .logo {
+        height: 35px;
+        width: 200px;
+    }
+
+    .settings {
+        float: right;
+    }
+}
+
+.fa {
+    cursor: pointer;
+}

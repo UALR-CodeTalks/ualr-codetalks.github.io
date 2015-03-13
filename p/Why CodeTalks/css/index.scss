@@ -1,0 +1,117 @@
+
+$blue-color: #1352A2;
+
+.voting {
+    display: inline-block;
+
+    .upvote {
+        width: 100%;
+        text-align: center;
+
+        &:hover {
+            color:$blue-color;
+        }
+    }
+
+    .vote-count {
+        margin: 0;
+        text-align: center;
+    }
+
+    .downvote {
+        width: 100%;
+        text-align: center;
+
+        &:hover {
+            color:$blue-color;
+        }
+    }
+}
+
+#content {
+    #pres-container {
+        display: block;
+
+        max-width: 640px;
+        max-height: 480px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        #pres {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    #pres-info {
+        max-width: 750px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        #pres-data {
+            margin-top: 15px;
+
+            #title {
+                font-size: 2.5em;
+            }
+
+            .below-line {
+                height: 60px;
+
+                .p-voting {
+                    width: 5%;
+                    height: 100%;
+
+                    vertical-align: middle;
+                }
+
+                .non-voting {
+                    width: 90%;
+                    height: 100%;
+
+                    display: inline;
+
+                    .favorite {
+                        vertical-align: middle;
+                        width: 5%;
+
+                        &:hover {
+                            color: $blue-color;
+                        }
+                    }
+
+                    .info {
+                        display: inline;
+                        vertical-align: top;
+                        float: right;
+
+                        h4 {
+                            display: inline-block;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        #pres-files {
+            #files-header {
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+
+            table {
+                width: 100%;
+
+                .file {
+                    td {
+                        text-align: left;
+                    }
+                }
+            }
+
+        }
+    }
+}
