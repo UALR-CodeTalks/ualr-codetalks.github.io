@@ -1,5 +1,4 @@
 
-
 .user-info {
     max-width: 750px;
     margin-left: auto;
@@ -16,7 +15,6 @@
     }
 }
 
-
 .content {
     max-width: 750px;
     margin-left: auto;
@@ -25,4 +23,19 @@
     .user-description {
 
     }
+
+    .user-codetalks {
+        .ct-aboveline {
+
+
+        }
+    }
+}
+
+h3 {
+    display: inline-block;
+}
+
+.caret {
+    float: right;
 }
