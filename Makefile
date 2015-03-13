@@ -21,7 +21,7 @@ p-wct: ./p/Why\ CodeTalks/css/index.scss ./p/Why\ CodeTalks/css/editor.scss ./p/
 	sass ./p/Why\ CodeTalks/css/editor.scss > ./p/Why\ CodeTalks/css/editor.css
 	sass ./p/Why\ CodeTalks/css/comments.scss > ./p/Why\ CodeTalks/css/comments.css
 
-clean: *
+commit: *
 	git add -u *
 	git commit -m "update"
 	git push origin master
