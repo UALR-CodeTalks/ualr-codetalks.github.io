@@ -23,6 +23,6 @@ p-wct: ./p/Why\ CodeTalks/css/index.scss ./p/Why\ CodeTalks/css/editor.scss ./p/
 
 
 clean: *
-	git add *
+	git add -u *
 	git commit -m "update"
 	git push origin master
