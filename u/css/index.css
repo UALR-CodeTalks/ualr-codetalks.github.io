@@ -5,6 +5,16 @@
   .user-info .profile-pic {
     position: absolute;
     clip: rect(0px, 60px, 250px, 250px); }
+  .user-info .name {
+    display: inline; }
+  .user-info .rightofimage .underline {
+    width: 100%; }
+    .user-info .rightofimage .underline .socialmedia {
+      width: 100%; }
+      .user-info .rightofimage .underline .socialmedia .s-link {
+        float: right; }
+        .user-info .rightofimage .underline .socialmedia .s-link .s-icon {
+          margin-left: 5px; }
 
 .content {
   max-width: 750px;

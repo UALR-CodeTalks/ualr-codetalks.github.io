@@ -22,9 +22,12 @@
                 <hr>
 
                 <div class="underline">
-                    <a href="http://www.google.com">GitHub</a>
-                    <a href="http://www.google.com">LinkedIn</a>
-                    <a href="http://www.google.com">Google+</a>
+                    <div class="socialmedia">
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-github-square fa-2x"></i></a>
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-linkedin-square fa-2x"></i></a>
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-google-plus-square fa-2x"></i></a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -66,7 +69,7 @@
             <div class="user-badges">
                 <div class="bg-aboveline">
                     <h3>Badges Earned</h3>
-                    <i class="fa fa-caret-down fa-2x caret"></i>
+                    <i onclick="dropBadges(this);" class="fa fa-caret-down fa-2x caret"></i>
                 </div>
 
                 <hr>

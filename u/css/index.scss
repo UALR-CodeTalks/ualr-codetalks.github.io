@@ -10,8 +10,26 @@
         clip: rect(0px, 60px, 250px, 250px)
     }
 
-    .rightofimage {
+    .name {
+        display: inline;
+    }
 
+    .rightofimage {
+        .underline {
+            width: 100%;
+
+            .socialmedia {
+                width: 100%;
+
+                .s-link {
+                    float: right;
+
+                    .s-icon {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
     }
 }
 
