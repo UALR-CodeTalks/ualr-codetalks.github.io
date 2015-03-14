@@ -37,13 +37,15 @@
         width: 90%;
         height: 100%;
         display: inline; }
+        #content #pres-info #pres-data .below-line .non-voting p {
+          display: inline; }
         #content #pres-info #pres-data .below-line .non-voting .favorite {
           vertical-align: middle;
           width: 5%; }
         #content #pres-info #pres-data .below-line .non-voting .info {
           display: inline;
-          vertical-align: top;
-          float: right; }
+          float: right;
+          vertical-align: middle; }
           #content #pres-info #pres-data .below-line .non-voting .info h4 {
             display: inline-block;
             margin: 0; }

@@ -62,6 +62,10 @@
 
                     display: inline;
 
+                    p {
+                        display: inline;
+                    }
+
                     .favorite {
                         vertical-align: middle;
                         width: 5%;
@@ -69,8 +73,9 @@
 
                     .info {
                         display: inline;
-                        vertical-align: top;
                         float: right;
+
+                        vertical-align: middle;
 
                         h4 {
                             display: inline-block;
