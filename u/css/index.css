@@ -19,8 +19,7 @@ h3 {
   display: inline-block; }
 
 .caret {
-  float: right;
-  vertical-align: bottom; }
+  float: right; }
 
 .belowline-container {
   max-width: 750px;
