@@ -5,6 +5,8 @@
 
         <link rel="stylesheet" href="../resources/css/global.css">
         <link rel="stylesheet" href="./css/index.css">
+
+        <script src="./js/MenuDropper.js"></script>
     </head>
 
     <body>
@@ -21,7 +23,11 @@
 
                 <hr>
 
-                <div class="underline">
+                <div class="roi-belowline">
+                    <div class="info">
+                        <strong>Blah</strong>
+                    </div>
+
                     <div class="socialmedia">
                         <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-github-square fa-2x"></i></a>
                         <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-linkedin-square fa-2x"></i></a>
@@ -43,53 +49,68 @@
             <div class="user-codetalks">
                 <div class="ct-aboveline">
                     <h3>CodeTalks</h3>
-                    <i class="fa fa-caret-down fa-2x caret"></i>
+                    <i onClick="dropDiv(this, 0);" class="fa fa-caret-down fa-2x caret"></i>
                 </div>
 
                 <hr>
 
-                <div class="ct-belowline">
-
+                <div class="belowline-container">
+                    <div class="belowline">
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-github-square fa-2x"></i></a>
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-linkedin-square fa-2x"></i></a>
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-google-plus-square fa-2x"></i></a>
+                    </div>
                 </div>
             </div>
 
             <div class="user-codesnippets">
                 <div class="cs-aboveline">
                     <h3>CodeSnippets</h3>
-                    <i class="fa fa-caret-down fa-2x caret"></i>
+                    <i onClick="dropDiv(this, 1);" class="fa fa-caret-down fa-2x caret"></i>
                 </div>
 
                 <hr>
 
-                <div class="cs-belowline">
-
+                <div class="belowline-container">
+                    <div class="belowline">
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-github-square fa-2x"></i></a>
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-linkedin-square fa-2x"></i></a>
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-google-plus-square fa-2x"></i></a>
+                    </div>
                 </div>
             </div>
 
             <div class="user-badges">
                 <div class="bg-aboveline">
                     <h3>Badges Earned</h3>
-                    <i onclick="dropBadges(this);" class="fa fa-caret-down fa-2x caret"></i>
+                    <i onClick="dropDiv(this, 2);" class="fa fa-caret-down fa-2x caret"></i>
                 </div>
 
                 <hr>
 
-                <div class="badges-earned">
-
+                <div class="belowline-container">
+                    <div class="belowline">
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-github-square fa-2x"></i></a>
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-linkedin-square fa-2x"></i></a>
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-google-plus-square fa-2x"></i></a>
+                    </div>
                 </div>
             </div>
 
             <div class="user-friends">
                 <div class="fr-aboveline">
                     <h3>Friends</h3>
-                    <i class="fa fa-caret-down fa-2x caret"></i>
+                    <i onClick="dropDiv(this, 3);" class="fa fa-caret-down fa-2x caret"></i>
                 </div>
 
                 <hr>
 
-                <div class="friends">
-
-
+                <div class="belowline-container">
+                    <div class="belowline">
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-github-square fa-2x"></i></a>
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-linkedin-square fa-2x"></i></a>
+                        <a class="s-link" href="http://www.google.com"><i class="fa s-icon fa-google-plus-square fa-2x"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
